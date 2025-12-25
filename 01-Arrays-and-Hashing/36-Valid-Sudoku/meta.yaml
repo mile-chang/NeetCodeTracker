@@ -1,0 +1,9 @@
+id: 36
+title: "Valid Sudoku"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/valid-sudoku/"
+tags: []
+attempts:
+  - date: "2025-12-25"
+    status: "red"
+    notes: "Use hash sets to track seen numbers in rows, columns, and squares"
