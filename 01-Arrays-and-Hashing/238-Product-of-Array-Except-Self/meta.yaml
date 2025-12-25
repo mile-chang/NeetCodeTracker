@@ -1,0 +1,9 @@
+id: 238
+title: "Product of Array Except Self"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/product-of-array-except-self/"
+tags: []
+attempts:
+  - date: "2025-12-25"
+    status: "red"
+    notes: "Use prefix and postfix"
