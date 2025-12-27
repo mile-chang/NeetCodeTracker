@@ -1,0 +1,11 @@
+id: 167
+title: "Two Sum II - Input Array Is Sorted"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/"
+tags: []
+attempts:
+  - date: "2025-12-27"
+    status: "red"
+    notes: |
+      Conditioner: sorted array, target.
+      Key Insight: two pointer.
