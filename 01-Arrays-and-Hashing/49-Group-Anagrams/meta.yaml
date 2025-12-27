@@ -7,3 +7,9 @@ attempts:
   - date: "2025-12-20"
     status: "red"
     notes: ""
+  - date: "2025-12-27"
+    status: "red"  # Attempt 2
+    notes: |
+      Blocker: Could not figure out how to group anagrams efficiently.
+      Key Insight: When we see group or duplicate question, maybe we cau use the hash map.
+      Method: ord()、defaultdict、tuple().
