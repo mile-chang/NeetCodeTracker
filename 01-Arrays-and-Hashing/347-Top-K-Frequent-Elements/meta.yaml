@@ -7,3 +7,9 @@ attempts:
   - date: "2025-12-20"
     status: "red"
     notes: ""
+  - date: "2025-12-27"
+    status: "red"  # Attempt 2
+    notes: |
+      Blocker: Could not figure out how to use bucket sort.
+      Key Insight: Frequent elements means we can use a hash map, then use bucket sort to group by frequency.
+      Method: hash
