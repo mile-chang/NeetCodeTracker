@@ -1,0 +1,9 @@
+id: 128
+title: "Longest Consecutive Sequence"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/longest-consecutive-sequence/"
+tags: []
+attempts:
+  - date: "2025-12-27"
+    status: "red"
+    notes: ""
