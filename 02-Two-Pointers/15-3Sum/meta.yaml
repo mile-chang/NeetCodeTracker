@@ -1,0 +1,9 @@
+id: 15
+title: "3Sum"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/3sum/"
+tags: []
+attempts:
+  - date: "2025-12-29"
+    status: "red"
+    notes: "enumerate method, two pointers"
