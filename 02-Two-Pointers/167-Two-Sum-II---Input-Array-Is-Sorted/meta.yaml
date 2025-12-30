@@ -9,3 +9,6 @@ attempts:
     notes: |
       Conditioner: sorted array, target.
       Key Insight: two pointer.
+  - date: "2025-12-30"
+    status: "yellow"  # Attempt 2
+    notes: "finish but need use print to debug, need to see constraints more carefully."
