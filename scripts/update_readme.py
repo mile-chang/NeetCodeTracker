@@ -16,9 +16,9 @@ STATUS_ICONS = {
 
 # Difficulty Icons mapping
 DIFFICULTY_ICONS = {
-    "Easy": "🟢",
-    "Medium": "🟠",
-    "Hard": "🔴"
+    "Easy": "Easy",
+    "Medium": "Medium",
+    "Hard": "Hard",
 }
 
 def get_days_ago(date_str):
