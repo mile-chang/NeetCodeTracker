@@ -17,7 +17,7 @@ STATUS_ICONS = {
 # Difficulty Icons mapping
 DIFFICULTY_ICONS = {
     "Easy": "🟢",
-    "Medium": "🟡",
+    "Medium": "🟠",
     "Hard": "🔴"
 }
 
