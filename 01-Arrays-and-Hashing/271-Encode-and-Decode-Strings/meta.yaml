@@ -7,3 +7,6 @@ attempts:
   - date: "2025-12-22"
     status: "red"
     notes: ""
+  - date: "2026-01-01"
+    status: "red"  # Attempt 2
+    notes: "know to use delmiter and length prefix for encode, but having trouble implementing decode"
