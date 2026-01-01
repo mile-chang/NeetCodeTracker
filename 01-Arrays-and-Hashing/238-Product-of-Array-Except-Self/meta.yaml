@@ -7,3 +7,6 @@ attempts:
   - date: "2025-12-25"
     status: "red"
     notes: "Use prefix and postfix"
+  - date: "2026-01-01"
+    status: "red"  # Attempt 2
+    notes: "divide into prefix and postfix arrays, then multiply corresponding indiced"

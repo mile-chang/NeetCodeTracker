@@ -3,12 +3,12 @@
 ### Proficiency: 0% (0/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-01 18:18
+**Last Updated:** 2026-01-01 19:04
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
 | **01-Arrays-and-Hashing** | 128 | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/128-Longest-Consecutive-Sequence) | Medium | 🔴  | 2025-12-27 (5d ago) | 🔥 Retry | - |
-|  | 238 | [Product of Array Except Self](./01-Arrays-and-Hashing/238-Product-of-Array-Except-Self) | Medium | 🔴  | 2025-12-25 (7d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Use prefix and postfix</details> |
+|  | 238 | [Product of Array Except Self](./01-Arrays-and-Hashing/238-Product-of-Array-Except-Self) | Medium | 🔴 🔴  | 2026-01-01 (0d ago) |  | <details><summary>🔍 Hint</summary>divide into prefix and postfix arrays, then multiply corresponding indiced</details> |
 |  | 271 | [Encode and Decode Strings](./01-Arrays-and-Hashing/271-Encode-and-Decode-Strings) | Medium | 🔴 🔴  | 2026-01-01 (0d ago) |  | <details><summary>🔍 Hint</summary>know to use delmiter and length prefix for encode, but having trouble implementing decode</details> |
 |  | 347 | [Top K Frequent Elements](./01-Arrays-and-Hashing/347-Top-K-Frequent-Elements) | Medium | 🔴 🔴  | 2025-12-27 (5d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Blocker: Could not figure out how to use bucket sort.<br>Key Insight: Frequent elements means we can use a hash map, then use bucket sort to group by frequency.<br>Method: hash<br></details> |
 |  | 36 | [Valid Sudoku](./01-Arrays-and-Hashing/36-Valid-Sudoku) | Medium | 🔴  | 2025-12-25 (7d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Use hash sets to track seen numbers in rows, columns, and squares</details> |
