@@ -31,6 +31,10 @@ def find_existing_problem(problem_id):
     for root, dirs, files in os.walk("."):
         if "scripts" in root or ".git" in root: continue
         for d in dirs:
+            # Skip categories and non-matching IDs
+            if re.match(r"^\d{2}-", d):
+                continue
+            #　Ｍatch problem ID
             if d.startswith(f"{problem_id}-"):
                 return os.path.join(root, d), d.split("-", 1)[1].replace("-", " ")
     return None, None
