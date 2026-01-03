@@ -1,0 +1,9 @@
+id: 11
+title: "Container With Most Water"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/container-with-most-water/"
+tags: []
+attempts:
+  - date: "2026-01-03"
+    status: "red"
+    notes: "why use two pointers, when to move the pointer?"
