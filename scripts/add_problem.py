@@ -29,14 +29,15 @@ CATEGORY_MAP = {
 def find_existing_problem(problem_id):
     """Searches for an existing problem folder by ID."""
     for root, dirs, files in os.walk("."):
-        if "scripts" in root or ".git" in root: continue
+        if "scripts" in root or ".git" in root:
+            continue
         for d in dirs:
-            # Skip categories and non-matching IDs
-            if re.match(r"^\d{2}-", d):
-                continue
-            #　Ｍatch problem ID
+            # Look for folders starting with the problem ID
+            # Ex: problem_id = "36" -> "36-Valid-Sudoku"
             if d.startswith(f"{problem_id}-"):
-                return os.path.join(root, d), d.split("-", 1)[1].replace("-", " ")
+                full_path = os.path.join(root, d)
+                problem_name = d.split("-", 1)[1].replace("-", " ")
+                return full_path, problem_name
     return None, None
 
 def get_next_attempt_number(path):
