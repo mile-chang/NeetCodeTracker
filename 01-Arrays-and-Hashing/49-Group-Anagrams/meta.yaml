@@ -13,3 +13,10 @@ attempts:
       Blocker: Could not figure out how to group anagrams efficiently.
       Key Insight: When we see group or duplicate question, maybe we cau use the hash map.
       Method: ord()、defaultdict、tuple().
+  - date: "2026-01-11"
+    status: "red"  # Attempt 3
+    notes: "| 
+      Know to use hash map to group anagrams, but dont know how to implement (ord(), tuple()).
+      Blocker: Implementation of hash map to group anagrams.
+      Key Insight: Group anagrams -> We can use a hash map with a tuple of character counts as the key.
+      Method: ord(), defaultdict, tuple()."
