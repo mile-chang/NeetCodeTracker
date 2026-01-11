@@ -16,7 +16,7 @@ attempts:
   - date: "2026-01-11"
     status: "red"  # Attempt 3
     notes: | 
-      Know to use bucket sort and hash map, but dont know how to implement.
+      Know to use bucket sort and hash map, but dont know how to implement (items(), get()).
       Blocker: Implementation of bucket sort and hash map.
       Key Insight: Frequent elements -> We can use a hash map to count. then we can use bucket sort to group elements by frequency.
       Method: hash, bucket sort
