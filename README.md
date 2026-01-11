@@ -3,11 +3,11 @@
 ### Proficiency: 0% (0/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-11 17:37
+**Last Updated:** 2026-01-11 18:24
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
-| **01-Arrays-and-Hashing** | 128 | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/128-Longest-Consecutive-Sequence) | Medium | 🔴  | 2025-12-27 (15d ago) | 🔥 Retry | - |
+| **01-Arrays-and-Hashing** | 128 | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/128-Longest-Consecutive-Sequence) | Medium | 🔴 🔴  | 2026-01-11 (0d ago) |  | <details><summary>🔍 Hint</summary>Blocker: When is sequence start and how to efficiently check existence. (n - 1, n + 1)<br>Key Insight: Consecutive sequence -> we can use a set to check for existence in O(1) time.<br>Method: set()<br></details> |
 |  | 238 | [Product of Array Except Self](./01-Arrays-and-Hashing/238-Product-of-Array-Except-Self) | Medium | 🔴 🔴  | 2026-01-01 (10d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>divide into prefix and postfix arrays, then multiply corresponding indiced</details> |
 |  | 271 | [Encode and Decode Strings](./01-Arrays-and-Hashing/271-Encode-and-Decode-Strings) | Medium | 🔴 🔴  | 2026-01-01 (10d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>know to use delmiter and length prefix for encode, but having trouble implementing decode</details> |
 |  | 347 | [Top K Frequent Elements](./01-Arrays-and-Hashing/347-Top-K-Frequent-Elements) | Medium | 🔴 🔴 🔴  | 2026-01-11 (0d ago) |  | <details><summary>🔍 Hint</summary>Know to use bucket sort and hash map, but dont know how to implement (items(), get()).<br>Blocker: Implementation of bucket sort and hash map.<br>Key Insight: Frequent elements -> We can use a hash map to count. then we can use bucket sort to group elements by frequency.<br>Method: hash, bucket sort<br></details> |

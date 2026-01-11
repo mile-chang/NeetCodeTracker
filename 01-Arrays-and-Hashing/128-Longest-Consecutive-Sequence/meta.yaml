@@ -7,3 +7,9 @@ attempts:
   - date: "2025-12-27"
     status: "red"
     notes: ""
+  - date: "2026-01-11"
+    status: "red"  # Attempt 2
+    notes: | 
+      Blocker: When is sequence start and how to efficiently check existence. (n - 1, n + 1)
+      Key Insight: Consecutive sequence -> we can use a set to check for existence in O(1) time.
+      Method: set()
