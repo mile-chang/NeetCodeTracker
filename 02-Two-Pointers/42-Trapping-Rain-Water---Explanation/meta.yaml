@@ -1,0 +1,12 @@
+id: 42
+title: "Trapping Rain Water - Explanation"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/trapping-rain-water---explanation/"
+tags: []
+attempts:
+  - date: "2026-01-11"
+    status: "red"
+    notes: |
+     Move the shorter side (bottleneck). 
+     Update the wall, and fill the hole. 
+     If it's a new high, it becomes a wall. If it's lower, it's a hole for water.
