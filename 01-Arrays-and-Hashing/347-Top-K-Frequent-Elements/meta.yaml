@@ -13,3 +13,10 @@ attempts:
       Blocker: Could not figure out how to use bucket sort.
       Key Insight: Frequent elements means we can use a hash map, then use bucket sort to group by frequency.
       Method: hash
+  - date: "2026-01-11"
+    status: "red"  # Attempt 3
+    notes: | 
+      Know to use bucket sort and hash map, but dont know how to implement.
+      Blocker: Implementation of bucket sort and hash map.
+      Key Insight: Frequent elements -> We can use a hash map to count. then we can use bucket sort to group elements by frequency.
+      Method: hash, bucket sort
