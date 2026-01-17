@@ -1,7 +1,7 @@
 id: 42
-title: "Trapping Rain Water - Explanation"
+title: "Trapping Rain Water"
 difficulty: "Medium"
-url: "https://leetcode.com/problems/trapping-rain-water---explanation/"
+url: "https://leetcode.com/problems/trapping-rain-water/"
 tags: []
 attempts:
   - date: "2026-01-11"
