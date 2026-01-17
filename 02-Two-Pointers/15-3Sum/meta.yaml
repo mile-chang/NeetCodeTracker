@@ -7,3 +7,6 @@ attempts:
   - date: "2025-12-29"
     status: "red"
     notes: "enumerate method, two pointers"
+  - date: "2026-01-17"
+    status: "red"  # Attempt 2
+    notes: "combine index + sort + two pointers, avoid duplicates"
