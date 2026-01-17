@@ -26,19 +26,42 @@ CATEGORY_MAP = {
     "18": "18-Math-and-Geometry"
 }
 
-def find_existing_problem(problem_id):
-    """Searches for an existing problem folder by ID."""
+def find_existing_problem(problem_id, preferred_category=None):
+    """Searches for an existing problem folder by ID.
+    
+    Args:
+        problem_id: The problem ID to search for
+        preferred_category: Optional category folder to prioritize (e.g., "02-Two-Pointers")
+    
+    Returns:
+        Tuple of (full_path, problem_name) or (None, None) if not found
+    """
+    matches = []
+    
     for root, dirs, files in os.walk("."):
         if "scripts" in root or ".git" in root:
             continue
         for d in dirs:
             # Look for folders starting with the problem ID
             # Ex: problem_id = "36" -> "36-Valid-Sudoku"
-            if d.startswith(f"{problem_id}-"):
+            # Split by "-" and check if the first part exactly matches the problem_id
+            parts = d.split("-", 1)
+            if len(parts) >= 2 and parts[0] == str(problem_id):
                 full_path = os.path.join(root, d)
-                problem_name = d.split("-", 1)[1].replace("-", " ")
+                problem_name = parts[1].replace("-", " ")
+                matches.append((full_path, problem_name, root))
+    
+    if not matches:
+        return None, None
+    
+    # If we have a preferred category, try to find a match in that category first
+    if preferred_category:
+        for full_path, problem_name, root in matches:
+            if preferred_category in root:
                 return full_path, problem_name
-    return None, None
+    
+    # Otherwise return the first match
+    return matches[0][0], matches[0][1]
 
 def get_next_attempt_number(path):
     """Finds the next attempt number based on existing files."""
@@ -50,8 +73,11 @@ def get_next_attempt_number(path):
     return max(attempts) + 1
 
 def create_problem(cat_key, problem_id, problem_name=None):
-    # Check if problem already exists
-    existing_path, existing_name = find_existing_problem(problem_id)
+    # Get category for preferred matching
+    category = CATEGORY_MAP.get(str(cat_key))
+    
+    # Check if problem already exists (prefer matches in the specified category)
+    existing_path, existing_name = find_existing_problem(problem_id, category)
     
     if existing_path:
         print(f"Found existing problem: {existing_name} at {existing_path}")
@@ -63,7 +89,6 @@ def create_problem(cat_key, problem_id, problem_name=None):
             print("Error: New problem requires a problem name.")
             return
             
-        category = CATEGORY_MAP.get(str(cat_key))
         if not category:
             print(f"Error: Invalid category key '{cat_key}'.")
             return
