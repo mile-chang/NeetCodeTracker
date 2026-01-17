@@ -1,9 +1,9 @@
 # 🚀 NeetCode 150 Progress Tracker
 
-### Proficiency: 0% (0/150)
+### Proficiency: 0% (1/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-17 16:25
+**Last Updated:** 2026-01-17 16:49
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
@@ -15,5 +15,5 @@
 |  | 49 | [Group Anagrams](./01-Arrays-and-Hashing/49-Group-Anagrams) | Medium | 🔴 🔴 🔴  | 2026-01-11 (6d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>| Know to use hash map to group anagrams, but dont know how to implement (ord(), tuple()). Blocker: Implementation of hash map to group anagrams. Key Insight: Group anagrams -> We can use a hash map with a tuple of character counts as the key. Method: ord(), defaultdict, tuple().</details> |
 | **02-Two-Pointers** | 11 | [Container With Most Water](./02-Two-Pointers/11-Container-With-Most-Water) | Medium | 🔴  | 2026-01-03 (14d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>why use two pointers, when to move the pointer?</details> |
 |  | 15 | [3Sum](./02-Two-Pointers/15-3Sum) | Medium | 🔴  | 2025-12-29 (19d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>enumerate method, two pointers</details> |
-|  | 167 | [Two Sum II - Input Array Is Sorted](./02-Two-Pointers/167-Two-Sum-II---Input-Array-Is-Sorted) | Medium | 🔴 🟡  | 2025-12-30 (18d ago) | 🔔 Review | <details><summary>🔍 Hint</summary>finish but need use print to debug, need to see constraints more carefully.</details> |
+|  | 167 | [Two Sum II - Input Array Is Sorted](./02-Two-Pointers/167-Two-Sum-II---Input-Array-Is-Sorted) | Medium | 🔴 🟡 🟢  | 2026-01-17 (0d ago) |  | <details><summary>🔍 Hint</summary>Solve the problem, but no need for loop inside the while loop.</details> |
 |  | 42 | [Trapping Rain Water - Explanation](./02-Two-Pointers/42-Trapping-Rain-Water---Explanation) | Medium | 🔴  | 2026-01-11 (6d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Move the shorter side (bottleneck). <br>Update the wall, and fill the hole. <br>If it's a new high, it becomes a wall. If it's lower, it's a hole for water.</details> |
