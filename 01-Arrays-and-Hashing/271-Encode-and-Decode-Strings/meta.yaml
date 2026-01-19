@@ -10,3 +10,6 @@ attempts:
   - date: "2026-01-01"
     status: "red"  # Attempt 2
     notes: "know to use delmiter and length prefix for encode, but having trouble implementing decode"
+  - date: "2026-01-19"
+    status: "red"  # Attempt 3
+    notes: "Decode method need to use while loop and two pointer to get the length of each string (ex 10@hello, 3@abc)"
