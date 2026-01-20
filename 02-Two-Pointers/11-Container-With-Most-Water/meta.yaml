@@ -7,3 +7,6 @@ attempts:
   - date: "2026-01-03"
     status: "red"
     notes: "why use two pointers, when to move the pointer?"
+  - date: "2026-01-20"
+    status: "yellow"  # Attempt 2
+    notes: "how to calculate the container of the water, when to move the pointer? heights[left] > heights[right] or equal, move what pointer?"
