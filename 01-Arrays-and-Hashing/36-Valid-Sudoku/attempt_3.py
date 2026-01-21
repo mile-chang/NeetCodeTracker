@@ -1,7 +1,7 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         # Solution 1: we can init 3 array(row, column, 3*3 sub-boxes) to store dights, then we determine those array is reptition or not.
-        # time complextiy O(N2) or O(1)、space complextiy O(N), because the Constraints set always 9*9 sudoku.
+        # time complextiy O(N2) or O(1)、space complextiy O(N2) or O(1), because the Constraints set always 9*9 sudoku.
         # init set hash 
 
         # Note: collections not collection, defaultdict not dict
