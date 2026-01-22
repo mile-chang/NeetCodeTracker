@@ -13,3 +13,6 @@ attempts:
       Blocker: When is sequence start and how to efficiently check existence. (n - 1, n + 1)
       Key Insight: Consecutive sequence -> we can use a set to check for existence in O(1) time.
       Method: set()
+  - date: "2026-01-22"
+    status: "red"  # Attempt 3
+    notes: "convert list to set to become O(1) time complexity, n + length to avoid loop, while in for loop but still O(N), because the while loop only run once in each for loop."

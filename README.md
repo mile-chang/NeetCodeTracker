@@ -3,11 +3,11 @@
 ### Proficiency: 0% (1/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-22 00:01
+**Last Updated:** 2026-01-22 22:44
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
-| **01-Arrays-and-Hashing** | 128 | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/128-Longest-Consecutive-Sequence) | Medium | 🔴 🔴  | 2026-01-11 (11d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Blocker: When is sequence start and how to efficiently check existence. (n - 1, n + 1)<br>Key Insight: Consecutive sequence -> we can use a set to check for existence in O(1) time.<br>Method: set()<br></details> |
+| **01-Arrays-and-Hashing** | 128 | [Longest Consecutive Sequence](./01-Arrays-and-Hashing/128-Longest-Consecutive-Sequence) | Medium | 🔴 🔴 🔴  | 2026-01-22 (0d ago) |  | <details><summary>🔍 Hint</summary>convert list to set to become O(1) time complexity, n + length to avoid loop, while in for loop but still O(N), because the while loop only run once in each for loop.</details> |
 |  | 238 | [Product of Array Except Self](./01-Arrays-and-Hashing/238-Product-of-Array-Except-Self) | Medium | 🔴 🔴 🟡  | 2026-01-17 (5d ago) | 🔔 Review | <details><summary>🔍 Hint</summary>See the hint to fix the question</details> |
 |  | 271 | [Encode and Decode Strings](./01-Arrays-and-Hashing/271-Encode-and-Decode-Strings) | Medium | 🔴 🔴 🔴  | 2026-01-19 (3d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Decode method need to use while loop and two pointer to get the length of each string (ex 10@hello, 3@abc)</details> |
 |  | 347 | [Top K Frequent Elements](./01-Arrays-and-Hashing/347-Top-K-Frequent-Elements) | Medium | 🔴 🔴 🔴  | 2026-01-11 (11d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Know to use bucket sort and hash map, but dont know how to implement (items(), get()).<br>Blocker: Implementation of bucket sort and hash map.<br>Key Insight: Frequent elements -> We can use a hash map to count. then we can use bucket sort to group elements by frequency.<br>Method: hash, bucket sort<br></details> |
