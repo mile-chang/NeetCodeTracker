@@ -20,3 +20,6 @@ attempts:
       Blocker: Implementation of bucket sort and hash map.
       Key Insight: Frequent elements -> We can use a hash map to count. then we can use bucket sort to group elements by frequency.
       Method: hash, bucket sort
+  - date: "2026-01-25"
+    status: "red"  # Attempt 4
+    notes: "hash map + 2D list, dict.get(), dict.items(), dict[key]"
