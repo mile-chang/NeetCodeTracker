@@ -3,7 +3,7 @@
 ### Proficiency: 0% (1/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-25 17:18
+**Last Updated:** 2026-01-25 18:53
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
@@ -18,3 +18,4 @@
 |  | 167 | [Two Sum II - Input Array Is Sorted](./02-Two-Pointers/167-Two-Sum-II---Input-Array-Is-Sorted) | Medium | 🔴 🟡 🟢  | 2026-01-17 (8d ago) |  | <details><summary>🔍 Hint</summary>Solve the problem, but no need for loop inside the while loop.</details> |
 |  | 42 | [Trapping Rain Water](./02-Two-Pointers/42-Trapping-Rain-Water) | Medium | 🔴 🔴  | 2026-01-25 (0d ago) |  | <details><summary>🔍 Hint</summary>the water trapped is height[i] - min(max_left, max_right), cause bottleneck is the shorter side</details> |
 | **05-Sliding-Window** | 3 | [Longest Substring Without Repeating Characters](./05-Sliding-Window/3-Longest-Substring-Without-Repeating-Characters) | Medium | 🔴  | 2026-01-25 (0d ago) |  | <details><summary>🔍 Hint</summary>In the sliding window, when to expand, when to shrink, when to update the result?</details> |
+|  | 424 | [Longest Repeating Character Replacement](./05-Sliding-Window/424-Longest-Repeating-Character-Replacement) | Medium | 🔴  | 2026-01-25 (0d ago) |  | <details><summary>🔍 Hint</summary>when to expand (window_length - max_freq <= k), when to shrink (window_length - max_freq > k), when to update the result (window_length - max_freq <= k)</details> |

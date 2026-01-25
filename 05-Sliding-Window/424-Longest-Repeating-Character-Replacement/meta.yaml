@@ -1,0 +1,9 @@
+id: 424
+title: "Longest Repeating Character Replacement"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/longest-repeating-character-replacement/"
+tags: []
+attempts:
+  - date: "2026-01-25"
+    status: "red"
+    notes: "when to expand (window_length - max_freq <= k), when to shrink (window_length - max_freq > k), when to update the result (window_length - max_freq <= k)"
