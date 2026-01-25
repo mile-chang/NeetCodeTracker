@@ -1,0 +1,9 @@
+id: 3
+title: "Longest Substring Without Repeating Characters"
+difficulty: "Medium"
+url: "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+tags: []
+attempts:
+  - date: "2026-01-25"
+    status: "red"
+    notes: "In the sliding window, when to expand, when to shrink, when to update the result?"
