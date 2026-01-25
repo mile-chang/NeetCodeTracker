@@ -10,3 +10,6 @@ attempts:
      Move the shorter side (bottleneck). 
      Update the wall, and fill the hole. 
      If it's a new high, it becomes a wall. If it's lower, it's a hole for water.
+  - date: "2026-01-25"
+    status: "red"  # Attempt 2
+    notes: "the water trapped is height[i] - min(max_left, max_right), cause bottleneck is the shorter side"

@@ -3,7 +3,7 @@
 ### Proficiency: 0% (1/150)
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-**Last Updated:** 2026-01-25 00:30
+**Last Updated:** 2026-01-25 14:42
 
 | Category | ID | Problem | Diff | History | Last Practice | Status | Note |
 |---|:---:|---|:---:|---|:---:|---|---|
@@ -16,4 +16,4 @@
 | **02-Two-Pointers** | 11 | [Container With Most Water](./02-Two-Pointers/11-Container-With-Most-Water) | Medium | 🔴 🟡  | 2026-01-20 (5d ago) | 🔔 Review | <details><summary>🔍 Hint</summary>how to calculate the container of the water, when to move the pointer? heights[left] > heights[right] or equal, move what pointer?</details> |
 |  | 15 | [3Sum](./02-Two-Pointers/15-3Sum) | Medium | 🔴 🔴  | 2026-01-17 (8d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>combine index + sort + two pointers, avoid duplicates</details> |
 |  | 167 | [Two Sum II - Input Array Is Sorted](./02-Two-Pointers/167-Two-Sum-II---Input-Array-Is-Sorted) | Medium | 🔴 🟡 🟢  | 2026-01-17 (8d ago) |  | <details><summary>🔍 Hint</summary>Solve the problem, but no need for loop inside the while loop.</details> |
-|  | 42 | [Trapping Rain Water](./02-Two-Pointers/42-Trapping-Rain-Water) | Medium | 🔴  | 2026-01-11 (14d ago) | 🔥 Retry | <details><summary>🔍 Hint</summary>Move the shorter side (bottleneck). <br>Update the wall, and fill the hole. <br>If it's a new high, it becomes a wall. If it's lower, it's a hole for water.</details> |
+|  | 42 | [Trapping Rain Water](./02-Two-Pointers/42-Trapping-Rain-Water) | Medium | 🔴 🔴  | 2026-01-25 (0d ago) |  | <details><summary>🔍 Hint</summary>the water trapped is height[i] - min(max_left, max_right), cause bottleneck is the shorter side</details> |
